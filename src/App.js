@@ -1,10 +1,14 @@
-import logo from './logo.svg';
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.css'
 import './App.css';
+import PlayersList from './PlayerList';
 
 function App() {
   return (
     <div className="App">
-    <h1>uhrbzrgzkrj</h1>
+       <h1>Football Players</h1>
+      <PlayersList/>
+     
     </div>
   );
 }
